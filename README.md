@@ -1,2 +1,10 @@
 # node-job-manager
-Bull - a job manager for node.js for processing jobs
+*Bull - Redis based message queue for processing jobs in node.js*
+
+## To install packages,
+```npm install```
+
+## To run,
+
+* ```npm run startManager```
+* ```npm run startWorker```

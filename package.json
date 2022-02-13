@@ -1,0 +1,12 @@
+{
+  "name": "node-job-manager",
+  "description": "bull - redis based message queue for processing jobs",
+  "scripts": {
+    "startManager":"node jobManager.js",
+    "startWorker": "node worker.js"
+  },
+  "dependencies": {
+    "bull": "^4.5.1",
+    "ioredis": "^4.28.5"
+  }
+}
